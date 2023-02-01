@@ -1,13 +1,11 @@
 //
-//  main.swift
+//  1-A.swift
 //  Algorithm
-//
-//  Created by Yong Jun Cha on 2022/11/09.
+//  BaekJoon 2309 
+//  Created by Yong Jun Cha on 2023/02/01.
 //
 
 import Foundation
-
-//let input = readLine()!.split(separator: " ").map { Int(String($0))! }
 
 var numArray: [Int] = []
 let total = 9
@@ -42,10 +40,15 @@ for i in 0..<total {
     }
 }
 
+/**
+ - Description
+ 이해했다고 생각한 조합을 실제로 문제로 풀어보니깐 내가 암기도 안 되어있었고,
+ 반복문으로 구현하려다가 Recursive로 구현하고 싶다고 욕심을 부리다가
+ 재귀로 구현하다가 실패하니깐 시간이 엄청 걸리기 시작했다.
+ for문 세 개 정도는 반복문으로 구현하는 것이 실수가 적을 것 같다.
+ */
 
-
-
-
+// Recursive func
 //func combination(start: Int, array: inout [Int]) {
 //
 //    // 기저 사례
