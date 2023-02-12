@@ -30,6 +30,7 @@
 		028526AF2993D0AC00C2D820 /* 1-C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-C.swift"; sourceTree = "<group>"; };
 		028526B229953F8F00C2D820 /* 1-D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-D.swift"; sourceTree = "<group>"; };
 		028526B429965C3200C2D820 /* 1-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-E.swift"; sourceTree = "<group>"; };
+		028526B629990F6700C2D820 /* 1-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-F.swift"; sourceTree = "<group>"; };
 		02BC5C99291BE559003B2996 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC5C9C291BE559003B2996 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02BC5CA3291BE56A003B2996 /* permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutation.swift; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 				028526AF2993D0AC00C2D820 /* 1-C.swift */,
 				028526B229953F8F00C2D820 /* 1-D.swift */,
 				028526B429965C3200C2D820 /* 1-E.swift */,
+				028526B629990F6700C2D820 /* 1-F.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
