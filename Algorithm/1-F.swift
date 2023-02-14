@@ -64,3 +64,27 @@ for i in 0..<input.count {
 }
 
 print(encryptedResult)
+
+
+/**
+ ASCII Code 에 대해서 학습했다면 훨씬 좋은 코드를 만들었을 것이라고 생각한다.
+ Dictionary로 풀다보니 풀리긴 풀렸으나 공간복잡도나 시간복잡도가 늘어났고
+ Dictionart에 있는 함수들을 전부 알고있지는 않아서 공부가 필요하다고 생각했다.
+ 
+ ASCII Code는 65가 대문자 A 97이 소문자 a이다
+ 65와 97을 외우면 모든지 풀 수 있다.
+ 
+ ```
+ // String to Ascii
+ let ch = "C"
+ let asciiIntValue_C = Int(UnicodeScalar(ch)!.value)
+ let asciiIntValue_A = Int(UnicodeScalar("A").value)
+
+ // Ascii Int Value to String
+ let result = String(UnicodeScalar(asciiIntValue_A)!)
+ ```
+상기의 코드를 사용하였다면
+ 대소문자 구분이나, Dictionary를 쓰지않고 훨씬 쉽게 문제를 풀었을 것 갘다.
+ */
+
+
