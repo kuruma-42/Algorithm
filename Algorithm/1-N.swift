@@ -1,7 +1,7 @@
 //
 //  1-N.swift
 //  Algorithm
-//
+//  BaekJoon 1629
 //  Created by Yong Jun Cha on 2023/03/08.
 //
 
