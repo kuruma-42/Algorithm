@@ -32,6 +32,7 @@
 		026A442329B2287A00EE9249 /* 1-M.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-M.swift"; sourceTree = "<group>"; };
 		026A442529B8B2E400EE9249 /* 1-N.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-N.swift"; sourceTree = "<group>"; };
 		026A442729BA1DA700EE9249 /* 1-O.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-O.swift"; sourceTree = "<group>"; };
+		026A442929C0B6ED00EE9249 /* 1-A-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-A-2.swift"; sourceTree = "<group>"; };
 		028526A72967051F00C2D820 /* combination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combination.swift; sourceTree = "<group>"; };
 		028526A9297962B000C2D820 /* prefixSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prefixSum.swift; sourceTree = "<group>"; };
 		028526AB298A78F100C2D820 /* 1-A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-A.swift"; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 				026A442329B2287A00EE9249 /* 1-M.swift */,
 				026A442529B8B2E400EE9249 /* 1-N.swift */,
 				026A442729BA1DA700EE9249 /* 1-O.swift */,
+				026A442929C0B6ED00EE9249 /* 1-A-2.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
