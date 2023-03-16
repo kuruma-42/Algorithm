@@ -38,3 +38,49 @@ for i in 0..<totalGoblinNum {
 goblinArray.map {
     print("\($0)")
 }
+
+
+// 재귀를 이용한 풀이
+let totalGoblinNum = 9
+var goblinArray: [Int] = []
+
+for _ in 0..<totalGoblinNum {
+    let input = Int(readLine()!)!
+    goblinArray.append(input)
+}
+
+var arrBuffer: [Int] = []
+let diff = goblinArray.reduce(0,+) - 100
+var firstGoblin: Int = 0
+var secondGoblin: Int = 0
+
+func combination(start: Int, arr: inout [Int]) {
+    if arr.count == 2 {
+        let arrSum = arr.map{ $0 }.reduce(0,+)
+        if  arrSum == diff {
+            firstGoblin = arr[0]
+            secondGoblin = arr[1]
+            return
+        }
+        return
+    }
+    
+    for i in start+1..<goblinArray.count {
+        arr.append(goblinArray[i - 1])
+        combination(start: i, arr: &arr)
+        arr.popLast()
+    }
+}
+
+combination(start: 0, arr: &arrBuffer)
+
+let goblinIndex1 = goblinArray.firstIndex(of: firstGoblin)
+goblinArray.remove(at: goblinIndex1!)
+
+let goblinIndex2 = goblinArray.firstIndex(of: secondGoblin)
+goblinArray.remove(at: goblinIndex2!)
+
+let sortedGoblinArray = goblinArray.sorted(by: <)
+sortedGoblinArray.forEach {
+    print("\($0)")
+}
