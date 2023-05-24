@@ -51,6 +51,7 @@
 		02BC5C9C291BE559003B2996 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02BC5CA3291BE56A003B2996 /* permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutation.swift; sourceTree = "<group>"; };
 		02BC5CA5291BE59D003B2996 /* readLineList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readLineList.md; sourceTree = "<group>"; };
+		02C63F7C2A1DD88C0040E9AE /* bfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bfs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 				026A442F29E3F69F00EE9249 /* adjacencyList.swift */,
 				026A443129E41DEA00EE9249 /* map&DirectionVector.swift */,
 				026A443329E5A73900EE9249 /* dfs.swift */,
+				02C63F7C2A1DD88C0040E9AE /* bfs.swift */,
 				02BC5CA5291BE59D003B2996 /* readLineList.md */,
 				028526AB298A78F100C2D820 /* 1-A.swift */,
 				028526AD299140C100C2D820 /* 1-B.swift */,
