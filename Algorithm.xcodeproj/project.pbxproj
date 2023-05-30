@@ -53,6 +53,7 @@
 		02BC5CA5291BE59D003B2996 /* readLineList.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readLineList.md; sourceTree = "<group>"; };
 		02C63F7C2A1DD88C0040E9AE /* bfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bfs.swift; sourceTree = "<group>"; };
 		02C63F7E2A25B3D60040E9AE /* 2-A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-A.swift"; sourceTree = "<group>"; };
+		02C63F802A26279D0040E9AE /* 2-B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-B.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 				026A442729BA1DA700EE9249 /* 1-O.swift */,
 				026A442929C0B6ED00EE9249 /* 1-A-2.swift */,
 				02C63F7E2A25B3D60040E9AE /* 2-A.swift */,
+				02C63F802A26279D0040E9AE /* 2-B.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";

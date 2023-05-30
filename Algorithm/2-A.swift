@@ -25,8 +25,9 @@ var sx = 0
 var sy = 0
 var q: [[Int]] = []
 
-q.append([sy, sx])
+// 방문 처리 해준 후 queue에 푸쉬하는 게 좋다
 visited[sy][sx] = 1
+q.append([sy, sx])
 
 while q.count != 0 {
     var here = q.first!
