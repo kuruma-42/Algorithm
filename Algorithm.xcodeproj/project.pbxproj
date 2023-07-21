@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		026A442C29D1985B00EE9249 /* queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026A442B29D1985B00EE9249 /* queue.swift */; };
-		02A2430B2A4C236900AB734E /* 2-K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2430A2A4C236900AB734E /* 2-K.swift */; };
 		02BC5C9D291BE559003B2996 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC5C9C291BE559003B2996 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +53,7 @@
 		02A243062A440C1D00AB734E /* 2-I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-I.swift"; sourceTree = "<group>"; };
 		02A243082A4574ED00AB734E /* 2-J.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-J.swift"; sourceTree = "<group>"; };
 		02A2430A2A4C236900AB734E /* 2-K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-K.swift"; sourceTree = "<group>"; };
+		02A2430C2A6A4CDD00AB734E /* 2-L.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-L.swift"; sourceTree = "<group>"; };
 		02BC5C99291BE559003B2996 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC5C9C291BE559003B2996 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02BC5CA3291BE56A003B2996 /* permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutation.swift; sourceTree = "<group>"; };
@@ -134,6 +134,7 @@
 				02A243062A440C1D00AB734E /* 2-I.swift */,
 				02A243082A4574ED00AB734E /* 2-J.swift */,
 				02A2430A2A4C236900AB734E /* 2-K.swift */,
+				02A2430C2A6A4CDD00AB734E /* 2-L.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -197,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02BC5C9D291BE559003B2996 /* main.swift in Sources */,
-				02A2430B2A4C236900AB734E /* 2-K.swift in Sources */,
 				026A442C29D1985B00EE9249 /* queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
