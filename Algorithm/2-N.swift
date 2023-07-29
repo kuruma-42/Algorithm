@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  2-N.swift
 //  Algorithm
 //
-//  Created by Yong Jun Cha on 2022/11/09.
+//  Created by Yong Jun Cha on 2023/07/29.
 //
 
 import Foundation
@@ -76,3 +76,4 @@ for _ in 0..<n {
         print("NO")
     }
 }
+
