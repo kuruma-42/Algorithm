@@ -23,7 +23,7 @@ import Foundation
 
 var n = Int(readLine()!)!
 var arr = readLine()!.split(separator: " ").map { Int($0)! }
-var ret = Array(repeating: -1, count: 104)
+var ret = Array(repeating: -1, count: n)
 var s: [Int] = []
 
 for i in 0..<n {
@@ -40,5 +40,5 @@ for i in 0..<n {
 }
 
 for i in 0..<n {
-    print("\(ret[i])")
+    print("\(ret[i])", terminator: " ")
 }
