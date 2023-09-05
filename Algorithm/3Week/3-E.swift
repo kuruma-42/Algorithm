@@ -181,5 +181,3 @@ func attack() {
     print("ret :: \(ret - 1)")
 
 }
-
-
