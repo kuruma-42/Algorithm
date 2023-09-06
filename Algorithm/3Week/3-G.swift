@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 /**
  - Description
  >
@@ -38,45 +39,32 @@ func bfs(x: Int) {
     visited[x] = 1
     // 반복문
     while !queue.isEmpty {
-        
         // 할당
         var loca = queue.first!
         // 팝
         queue.removeFirst()
         
-//        print("loca:: \(loca)")
-        // 기저 사례
-        if loca == k {
-            print("\(visited[k] - 1)")
-            print("\(cnt[k])")
-        }
-        
-        for i in [loca + 1, loca - 1, loca * 2] {
-            var nx = i
+        for nx in [loca + 1, loca - 1, loca * 2] {
             
             // 오버플로우 체크
-            if nx < 0 || nx >= 100000 {
+            if nx < 0 || nx > 100000 {
                 continue
-            }
-            
-            // 다른 최소거리를 찾았을 때
-            if visited[nx] == visited[loca] + 1 {
-                cnt[nx] += 1
             }
             
             // 방문 체크
-            if visited[nx] != 0 {
-                continue
+            if visited[nx] == 0 {
+                // 방문 횟수 가중치
+                visited[nx] = visited[loca] + 1
+                
+                // 경우의 수 추가
+                cnt[nx] += cnt[loca]
+                
+                // Queue 추가
+                queue.append(nx)
+            } else if visited[nx] == visited[loca] + 1 {
+                cnt[nx] += cnt[loca]
             }
             
-            // 방문 횟수 가중치
-            visited[nx] = visited[loca] + 1
-            
-            // 경우의 수 추가
-            cnt[nx] += cnt[loca]
-            
-            // Queue 추가
-            queue.append(nx)
         }
         
     }
@@ -85,9 +73,11 @@ func bfs(x: Int) {
 
 if n == k {
     print("0")
-    print("0")
+    print("1")
 }
 
 if n != k {
     bfs(x: n)
+    print("\(visited[k] - 1)")
+    print("\(cnt[k])")
 }
