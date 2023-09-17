@@ -31,21 +31,27 @@ var x = 0
 var dy = [1, 0, -1, 0]
 var dx = [0, 1, 0, -1]
 
-//var waterQ: [(Int, Int)] = []
-//var water_tempQ: [(Int, Int)] = []
-//var swanQ: [(Int, Int)] = []
-//var swanQ_tempQ: [(Int, Int)] = []
+var waterQ: [(Int, Int)] = []
+var water_tempQ: [(Int, Int)] = []
+var swanQ: [(Int, Int)] = []
+var swanQ_tempQ: [(Int, Int)] = []
 
-var waterQ: Queue<(Int, Int)> = Queue()
-var water_tempQ: Queue<(Int, Int)> = Queue()
-var swanQ: Queue<(Int, Int)> = Queue()
-var swanQ_tempQ: Queue<(Int, Int)> = Queue()
+// Queue를 직접 구현해서 Pop을 해봤는데 시간초과를 피할 수 없었다.
+//var waterQ: Queue<(Int, Int)> = Queue()
+//var water_tempQ: Queue<(Int, Int)> = Queue()
+//var swanQ: Queue<(Int, Int)> = Queue()
+//var swanQ_tempQ: Queue<(Int, Int)> = Queue()
 
 func water_melting() {
-    while !waterQ.isEmpty {
-//        let now = waterQ.first!
-//        waterQ.removeFirst()
-        let now = waterQ.dequeue()!
+    // 직접 삭제하지 말고 프론트라는 인덱스로 쓸 변수를 생성
+    var front = 0
+    // 프론트가 Q의 갯수 보다 같거나 많아 지면 while문을 멈추게 한다.
+    while front < waterQ.count {
+        // 프론트를 인덱스로 now에 할당해주고
+        let now = waterQ[front]
+        // 인덱스를 하나 올려준다.
+        front += 1
+        // 이렇게 하면 직접 삭제를 안 해도 된다.
         for i in 0..<4 {
             let ny = now.0 + dy[i]
             let nx = now.1 + dx[i]
@@ -57,7 +63,7 @@ func water_melting() {
             if a[ny][nx] == "X" {
                 visited[ny][nx] = true
                 // queue를 두 개로 나눠주면서 날을 나눌 수 있다
-                water_tempQ.enqueue((ny,nx))
+                water_tempQ.append((ny,nx))
                 a[ny][nx] = "."
             }
         }
@@ -65,9 +71,11 @@ func water_melting() {
 }
 
 func move_swan() -> Bool {
-    while !swanQ.isEmpty {
-        let now = swanQ.dequeue()!
-//        swanQ.removeFirst()
+    // 똑같이 프론트 방식으로 구현해준다.
+    var front = 0
+    while front < swanQ.count {
+        let now = swanQ[front]
+        front += 1
         for i in 0..<4 {
             let ny = now.0 + dy[i]
             let nx = now.1 + dx[i]
@@ -76,12 +84,12 @@ func move_swan() -> Bool {
             }
             visited_swan[ny][nx] = true
             if a[ny][nx] == "." {
-                swanQ.enqueue((ny,nx))
+                swanQ.append((ny,nx))
                 continue
             }
             
             if a[ny][nx] == "X" {
-                swanQ_tempQ.enqueue((ny,nx))
+                swanQ_tempQ.append((ny,nx))
                 continue
             }
             
@@ -93,8 +101,8 @@ func move_swan() -> Bool {
     return false
 }
 
-func Qclear(q: inout Queue<(Int, Int)>) {
-    var empty: Queue<(Int, Int)> = Queue()
+func Qclear(q: inout [(Int, Int)]) {
+    var empty: [(Int, Int)] = []
     swap(&q, &empty)
 }
 
@@ -109,14 +117,15 @@ for i in 0..<r {
             swanX = j
         }
         
+        // 백조가 떠있는 곳도 물이라는 것을 생각해야한다.
         if c == "." ||  c == "L" {
-            waterQ.enqueue((i,j))
+            waterQ.append((i,j))
             visited[i][j] = true
         }
     }
 }
 
-swanQ.enqueue((swanY,swanX))
+swanQ.append((swanY,swanX))
 visited_swan[swanY][swanX] = true
 
 while true {
@@ -157,8 +166,16 @@ struct Queue<T> {
     }
     
 }
-
 /**
+ - Description
+ >
+ 하기의 방식으로 하면
+ dfs를 여러 번 반복하는 형태의 코드가 작성되는데,
+ 이렇게 되면 예제 테스트 케이스는 통과할 수 있으나,
+ 효율이 떨어져서 시간초과가 계속 난다.
+ flood & fill을 쓸 생각을 해야한다.
+ 한겹 씩 녹이는 문제는 dfs로 푸는 문제가 많아서
+ 초기에 프로토타입으로 풀었다. 
  ```
  var input = readLine()!.split(separator: " ").map { Int($0)! }
  var r = input[0]
