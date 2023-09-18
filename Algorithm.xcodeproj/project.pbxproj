@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0297EF872AB85A4A0001CF18 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297EF862AB85A4A0001CF18 /* FileIO.swift */; };
 		02BC5C9D291BE559003B2996 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC5C9C291BE559003B2996 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		0297EF802AB19F850001CF18 /* 3-J.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-J.swift"; sourceTree = "<group>"; };
 		0297EF822AB42A3C0001CF18 /* 3-K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-K.swift"; sourceTree = "<group>"; };
 		0297EF842AB5879C0001CF18 /* 3-X.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-X.swift"; sourceTree = "<group>"; };
+		0297EF862AB85A4A0001CF18 /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
+		0297EF882AB868E10001CF18 /* 3-L.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-L.swift"; sourceTree = "<group>"; };
 		02A243002A3AEB9500AB734E /* 2-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-F.swift"; sourceTree = "<group>"; };
 		02A243022A3DB36700AB734E /* 2-G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-G.swift"; sourceTree = "<group>"; };
 		02A243042A4002AF00AB734E /* 2-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-H.swift"; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 				0297EF802AB19F850001CF18 /* 3-J.swift */,
 				0297EF822AB42A3C0001CF18 /* 3-K.swift */,
 				0297EF842AB5879C0001CF18 /* 3-X.swift */,
+				0297EF882AB868E10001CF18 /* 3-L.swift */,
 			);
 			path = 3Week;
 			sourceTree = "<group>";
@@ -194,6 +198,7 @@
 				026A443129E41DEA00EE9249 /* map&DirectionVector.swift */,
 				026A443329E5A73900EE9249 /* dfs.swift */,
 				02C63F7C2A1DD88C0040E9AE /* bfs.swift */,
+				0297EF862AB85A4A0001CF18 /* FileIO.swift */,
 				02BC5CA5291BE59D003B2996 /* readLineList.md */,
 				020CAA2A2A92263B00FECB50 /* 1Week */,
 				020CAA2B2A92266200FECB50 /* 2Week */,
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02BC5C9D291BE559003B2996 /* main.swift in Sources */,
+				0297EF872AB85A4A0001CF18 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,33 +1,11 @@
-#  ReadLineList
-
-정수 한 개 입력
-let input = Int(readLine() ?? "")!
-
-정수 여러 개 입력
-let input1 = readLine()!.split(separator: " ").map { Int(String($0))! }
-
-문자열 한 개 입력
-let input = readLine()!
-
-문자열 여러 개 입력
-let input1 = readLine()!.split(separator: " ")
-let input2 = readLine()!.split { $0 == " " }
-
-연속적인 입력
-let input = Array(readLine()!).map { Int(String($0))! }
-
-
-let input1 = readLine()!.split(separator: " ")
-
-print("\(input1)")
-
-# 빠른 입출력 
-
-백준에서 readLine의 속도가 느려서 시간초과가 많이 나서 
-입출력을 빨리해주는 라이노님의 코드를 받아서 쓰기로 했다. 
+//
+//  FileIO.swift
+//  Algorithm
+//
+//  Created by Yong Jun Cha on 2023/09/18.
+//
 
 import Foundation
-
 
 final class FileIO {
     private let buffer:[UInt8]
@@ -86,14 +64,3 @@ final class FileIO {
         return Array(buffer[beginIndex..<(index-1)])
     }
 }
-
-상기의 코드를 import foundation 밑에 붙여주고 
-하기와 같이 사용하면 된다. 
-
-import Foundation
-
-let fIO = FileIO()
-
-let n = fIO.readInt()
-
-print(n)
