@@ -69,6 +69,7 @@
 		0297EF8E2ABDC7FD0001CF18 /* 3-N.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-N.swift"; sourceTree = "<group>"; };
 		0297EF902AC15AC90001CF18 /* 3-P.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-P.swift"; sourceTree = "<group>"; };
 		0297EF932AC2C2DE0001CF18 /* 3-Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-Q.swift"; sourceTree = "<group>"; };
+		0297EF952ACC04C70001CF18 /* bitMasking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitMasking.swift; sourceTree = "<group>"; };
 		02A243002A3AEB9500AB734E /* 2-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-F.swift"; sourceTree = "<group>"; };
 		02A243022A3DB36700AB734E /* 2-G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-G.swift"; sourceTree = "<group>"; };
 		02A243042A4002AF00AB734E /* 2-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-H.swift"; sourceTree = "<group>"; };
@@ -216,6 +217,7 @@
 				026A443329E5A73900EE9249 /* dfs.swift */,
 				02C63F7C2A1DD88C0040E9AE /* bfs.swift */,
 				0297EF862AB85A4A0001CF18 /* FileIO.swift */,
+				0297EF952ACC04C70001CF18 /* bitMasking.swift */,
 				02BC5CA5291BE59D003B2996 /* readLineList.md */,
 				020CAA2A2A92263B00FECB50 /* 1Week */,
 				020CAA2B2A92266200FECB50 /* 2Week */,
