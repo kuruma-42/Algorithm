@@ -70,6 +70,7 @@
 		0297EF902AC15AC90001CF18 /* 3-P.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-P.swift"; sourceTree = "<group>"; };
 		0297EF932AC2C2DE0001CF18 /* 3-Q.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-Q.swift"; sourceTree = "<group>"; };
 		0297EF952ACC04C70001CF18 /* bitMasking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitMasking.swift; sourceTree = "<group>"; };
+		0297EF972ACD927B0001CF18 /* 4-A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-A.swift"; sourceTree = "<group>"; };
 		02A243002A3AEB9500AB734E /* 2-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-F.swift"; sourceTree = "<group>"; };
 		02A243022A3DB36700AB734E /* 2-G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-G.swift"; sourceTree = "<group>"; };
 		02A243042A4002AF00AB734E /* 2-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-H.swift"; sourceTree = "<group>"; };
@@ -183,6 +184,7 @@
 		0297EF922AC2C2800001CF18 /* 4Week */ = {
 			isa = PBXGroup;
 			children = (
+				0297EF972ACD927B0001CF18 /* 4-A.swift */,
 			);
 			path = 4Week;
 			sourceTree = "<group>";
