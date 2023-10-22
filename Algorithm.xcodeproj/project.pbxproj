@@ -73,6 +73,7 @@
 		0297EF972ACD927B0001CF18 /* 4-A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-A.swift"; sourceTree = "<group>"; };
 		0297EF992AD81C420001CF18 /* 4-B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-B.swift"; sourceTree = "<group>"; };
 		0297EF9B2AE28C3A0001CF18 /* 4-C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-C.swift"; sourceTree = "<group>"; };
+		0297EF9D2AE52DE00001CF18 /* 4-D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-D.swift"; sourceTree = "<group>"; };
 		02A243002A3AEB9500AB734E /* 2-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-F.swift"; sourceTree = "<group>"; };
 		02A243022A3DB36700AB734E /* 2-G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-G.swift"; sourceTree = "<group>"; };
 		02A243042A4002AF00AB734E /* 2-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-H.swift"; sourceTree = "<group>"; };
@@ -189,6 +190,7 @@
 				0297EF972ACD927B0001CF18 /* 4-A.swift */,
 				0297EF992AD81C420001CF18 /* 4-B.swift */,
 				0297EF9B2AE28C3A0001CF18 /* 4-C.swift */,
+				0297EF9D2AE52DE00001CF18 /* 4-D.swift */,
 			);
 			path = 4Week;
 			sourceTree = "<group>";
