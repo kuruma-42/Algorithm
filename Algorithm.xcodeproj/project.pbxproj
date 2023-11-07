@@ -90,6 +90,7 @@
 		02AADF432AF4B27E00E7283C /* 4-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-F.swift"; sourceTree = "<group>"; };
 		02AADF452AF4E0B400E7283C /* 4-G.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-G.swift"; sourceTree = "<group>"; };
 		02AADF472AF7AB3B00E7283C /* 4-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-H.swift"; sourceTree = "<group>"; };
+		02AADF492AFA070600E7283C /* 4-I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-I.swift"; sourceTree = "<group>"; };
 		02BC5C99291BE559003B2996 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC5C9C291BE559003B2996 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02BC5CA3291BE56A003B2996 /* permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutation.swift; sourceTree = "<group>"; };
@@ -199,6 +200,7 @@
 				02AADF432AF4B27E00E7283C /* 4-F.swift */,
 				02AADF452AF4E0B400E7283C /* 4-G.swift */,
 				02AADF472AF7AB3B00E7283C /* 4-H.swift */,
+				02AADF492AFA070600E7283C /* 4-I.swift */,
 			);
 			path = 4Week;
 			sourceTree = "<group>";
