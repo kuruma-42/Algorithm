@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		0297EF872AB85A4A0001CF18 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297EF862AB85A4A0001CF18 /* FileIO.swift */; };
 		02AADF532B0620A700E7283C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC5C9C291BE559003B2996 /* main.swift */; };
-		02AADF5C2B0C81F700E7283C /* priorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AADF5B2B0C81F700E7283C /* priorityQueue.swift */; };
-		02AADF602B0EE4E600E7283C /* heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AADF5F2B0EE4E600E7283C /* heap.swift */; };
+		02AADF612B10513000E7283C /* heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AADF5F2B0EE4E600E7283C /* heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -333,10 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AADF5C2B0C81F700E7283C /* priorityQueue.swift in Sources */,
+				02AADF612B10513000E7283C /* heap.swift in Sources */,
 				02AADF532B0620A700E7283C /* main.swift in Sources */,
 				0297EF872AB85A4A0001CF18 /* FileIO.swift in Sources */,
-				02AADF602B0EE4E600E7283C /* heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
