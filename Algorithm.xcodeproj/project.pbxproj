@@ -10,6 +10,7 @@
 		0297EF872AB85A4A0001CF18 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297EF862AB85A4A0001CF18 /* FileIO.swift */; };
 		02AADF532B0620A700E7283C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC5C9C291BE559003B2996 /* main.swift */; };
 		02AADF612B10513000E7283C /* heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AADF5F2B0EE4E600E7283C /* heap.swift */; };
+		02AADF632B1064E100E7283C /* baekjoon14729.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AADF622B1064E100E7283C /* baekjoon14729.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -102,6 +103,7 @@
 		02AADF5B2B0C81F700E7283C /* priorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = priorityQueue.swift; sourceTree = "<group>"; };
 		02AADF5D2B0DEF4700E7283C /* baekjoon1202.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baekjoon1202.swift; sourceTree = "<group>"; };
 		02AADF5F2B0EE4E600E7283C /* heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heap.swift; sourceTree = "<group>"; };
+		02AADF622B1064E100E7283C /* baekjoon14729.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baekjoon14729.swift; sourceTree = "<group>"; };
 		02BC5C99291BE559003B2996 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC5C9C291BE559003B2996 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02BC5CA3291BE56A003B2996 /* permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutation.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 			children = (
 				02AADF592B0B29F700E7283C /* baekjoon1981.swift */,
 				02AADF5D2B0DEF4700E7283C /* baekjoon1202.swift */,
+				02AADF622B1064E100E7283C /* baekjoon14729.swift */,
 			);
 			path = 5Week;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			files = (
 				02AADF612B10513000E7283C /* heap.swift in Sources */,
 				02AADF532B0620A700E7283C /* main.swift in Sources */,
+				02AADF632B1064E100E7283C /* baekjoon14729.swift in Sources */,
 				0297EF872AB85A4A0001CF18 /* FileIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
