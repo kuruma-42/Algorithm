@@ -1,28 +1,29 @@
 //
 //  10810.swift
 //  Algorithm
-//  baekjoon 2562 공넣기 최댓값
+//  baekjoon 10810 공넣기
 //  Created by Yong Jun Cha on 2/4/24.
 //
 
 import Foundation
 
-/**
- 9개의 숫자가 들어온다.
- 최댓 값이 몇 번째 수인지를 구하는 프로그램을 작성하시오.
- 배열 잘 쓰는 방법
- */
+var input = readLine()!.split(separator:" ").map{ Int($0)! }
+var n = input[0]
+var m = input[1]
+var arr = Array(repeating: 0, count: n)
 
-var a: [Int] = []
-var maxVal = -987654321
-var idx = 0
-
-for i in 0..<9 {
-    a.append(Int(readLine()!)!)
+for i in 0..<m {
+    var t = readLine()!.split(separator:" ").map{ Int($0)! }
+    let x1 = t[0] - 1
+    let x2 = t[1]
+    let v = t[2]
+    
+    for j in x1..<x2 {
+        arr[j] = v
+    }
 }
 
-maxVal = a.max()!
-idx = a.firstIndex(of: maxVal)!
-print(maxVal)
-print(idx + 1)
+for k in arr {
+    print(k, terminator: " ")
+}
 
