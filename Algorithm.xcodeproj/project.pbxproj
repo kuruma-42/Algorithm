@@ -60,6 +60,7 @@
 		028526B629990F6700C2D820 /* 1-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-F.swift"; sourceTree = "<group>"; };
 		029607582B6F28D1000414A8 /* 2562.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2562.swift; sourceTree = "<group>"; };
 		0296075A2B6F962D000414A8 /* 10810.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10810.swift; sourceTree = "<group>"; };
+		0296075C2B7232CC000414A8 /* 10813.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10813.swift; sourceTree = "<group>"; };
 		0297EF742AA0503C0001CF18 /* 3-D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-D.swift"; sourceTree = "<group>"; };
 		0297EF762AA1DA280001CF18 /* 3-E.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-E.swift"; sourceTree = "<group>"; };
 		0297EF782AA6EA760001CF18 /* 3-F.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-F.swift"; sourceTree = "<group>"; };
@@ -224,6 +225,7 @@
 			children = (
 				029607582B6F28D1000414A8 /* 2562.swift */,
 				0296075A2B6F962D000414A8 /* 10810.swift */,
+				0296075C2B7232CC000414A8 /* 10813.swift */,
 			);
 			path = HiddenQuest;
 			sourceTree = "<group>";
