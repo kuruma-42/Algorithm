@@ -50,6 +50,7 @@
 		026A442F29E3F69F00EE9249 /* adjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjacencyList.swift; sourceTree = "<group>"; };
 		026A443129E41DEA00EE9249 /* map&DirectionVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "map&DirectionVector.swift"; sourceTree = "<group>"; };
 		026A443329E5A73900EE9249 /* dfs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dfs.swift; sourceTree = "<group>"; };
+		0272F94A2B763E9600DC87BD /* 3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3052.swift; sourceTree = "<group>"; };
 		028526A72967051F00C2D820 /* combination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combination.swift; sourceTree = "<group>"; };
 		028526A9297962B000C2D820 /* prefixSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prefixSum.swift; sourceTree = "<group>"; };
 		028526AB298A78F100C2D820 /* 1-A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-A.swift"; sourceTree = "<group>"; };
@@ -226,6 +227,7 @@
 				029607582B6F28D1000414A8 /* 2562.swift */,
 				0296075A2B6F962D000414A8 /* 10810.swift */,
 				0296075C2B7232CC000414A8 /* 10813.swift */,
+				0272F94A2B763E9600DC87BD /* 3052.swift */,
 			);
 			path = HiddenQuest;
 			sourceTree = "<group>";
