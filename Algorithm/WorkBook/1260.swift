@@ -47,7 +47,6 @@ func bfs() {
     var q: [Int] = []
     visited[v] = 1
     q.append(v)
-    
     while !q.isEmpty {
         var t = q.removeFirst()
         // 방문처리
