@@ -126,6 +126,7 @@
 		02AADF782B174D5E00E7283C /* 5-H.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5-H.swift"; sourceTree = "<group>"; };
 		02AADF7A2B1874B100E7283C /* 5-J.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5-J.swift"; sourceTree = "<group>"; };
 		02AADF7C2B19CA2F00E7283C /* 5-K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5-K.swift"; sourceTree = "<group>"; };
+		02B7E0492BC035800003C9F8 /* 모의고사.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모의고사.swift"; sourceTree = "<group>"; };
 		02BC5C99291BE559003B2996 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC5C9C291BE559003B2996 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		02BC5CA3291BE56A003B2996 /* permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutation.swift; sourceTree = "<group>"; };
@@ -290,6 +291,14 @@
 			path = 5Week;
 			sourceTree = "<group>";
 		};
+		02B7E0482BC034640003C9F8 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				02B7E0492BC035800003C9F8 /* 모의고사.swift */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
 		02BC5C90291BE559003B2996 = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +341,7 @@
 				0297EF922AC2C2800001CF18 /* 4Week */,
 				02AADF582B09F42C00E7283C /* 5Week */,
 				02378FC82B82F248007C506A /* WorkBook */,
+				02B7E0482BC034640003C9F8 /* Programmers */,
 				029607572B6F286B000414A8 /* HiddenQuest */,
 			);
 			path = Algorithm;
